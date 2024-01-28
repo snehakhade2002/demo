@@ -12,6 +12,7 @@ public class hungry{
         {
             System.out.println(" eat an apple");
             System.out.println(" eat a pizza");
+            System.out.println(" eat a pasta");
         }
         else
         {
