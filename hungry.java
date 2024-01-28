@@ -11,6 +11,7 @@ public class hungry{
         if(ipstr.equals("yes"))
         {
             System.out.println(" eat an apple");
+            System.out.println(" eat a pizza");
         }
         else
         {
