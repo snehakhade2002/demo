@@ -16,6 +16,12 @@ public class hungry{
         else
         {
             System.out.println(" code.......");
+            System.out.println(" are you thirsty....??");
+            String ipstr2 = sc.nextLine();
+            if(ipstr2.equals("yes") || ipstr2.equals("y") || ipstr2.equals("Y"))
+            {
+                System.out.println(" drink water");
+            }
         }
     }
 }
