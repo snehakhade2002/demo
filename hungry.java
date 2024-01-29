@@ -8,7 +8,7 @@ public class hungry{
         System.out.println(" are you hungry....??");
         String ipstr = sc.nextLine();
         ipstr = ipstr.toLowerCase().trim();
-        if(ipstr.equals("yes"))
+        if(ipstr.equals("yes") || ipstr.equals("y") || ipstr.equals("Y"))
         {
             System.out.println(" eat an apple");
             System.out.println(" eat a pizza");
